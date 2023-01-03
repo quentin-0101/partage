@@ -1,0 +1,19 @@
+{
+    "name": "quentingauny/td-php",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "gaunyq",
+            "email": "quentin.gauny@etu.umontpellier.fr"
+        }
+    ],
+    "require": {
+        "symfony/mailer": "^6.2",
+        "symfony/google-mailer": "^6.2",
+      "ext-pdo": "*"
+    }
+}
